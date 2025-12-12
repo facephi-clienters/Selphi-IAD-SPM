@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FPHIFPBExtractoriOS-SPM",
+        "repositoryURL": "git@github.com:facephi-clienters/FPHIFPBExtractoriOS-SPM.git",
+        "state": {
+          "branch": null,
+          "revision": "c023d821db83510c513197ba89ed5976925d9c95",
+          "version": "5.5.2"
+        }
+      },
+      {
+        "package": "FPHISelphiResources-SPM",
+        "repositoryURL": "git@github.com:facephi-clienters/FPHISelphiResources-SPM.git",
+        "state": {
+          "branch": null,
+          "revision": "bb73f22c7135f4cf9e9354aa3583297b6a959548",
+          "version": "5.20.2"
+        }
+      },
+      {
+        "package": "FPhiZipZap",
+        "repositoryURL": "git@github.com:facephi-clienters/SDK-ZipZap-SPM.git",
+        "state": {
+          "branch": null,
+          "revision": "5416057148bcda1cee39e584d52053c620b86cc4",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

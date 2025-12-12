@@ -1,0 +1,11 @@
+framework module FPhiWidgetCore {
+  umbrella header "FPhiWidgetCore.h"
+  export *
+
+  module * { export * }
+}
+
+module FPhiWidgetCore.Swift {
+  header "FPhiWidgetCore-Swift.h"
+  requires objc
+}

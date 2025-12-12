@@ -1,0 +1,812 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FPhiWidgetCore",
+    "printedName": "FPhiWidgetCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FPhiWidgetCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IDLiveFaceCamera",
+        "printedName": "IDLiveFaceCamera",
+        "declKind": "Import",
+        "moduleName": "FPhiWidgetCore"
+      },
+      {
+        "kind": "Import",
+        "name": "FPHILicenseManager",
+        "printedName": "FPHILicenseManager",
+        "declKind": "Import",
+        "moduleName": "FPhiWidgetCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FPhiCameraSwift",
+        "printedName": "FPhiCameraSwift",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(facingMode:previewWidth:previewHeight:layer:focusMode:qrMode:frameCallback:metadataCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.AutoreleasingUnsafeMutablePointer<Foundation.NSError?>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoreleasingUnsafeMutablePointer",
+                    "printedName": "Swift.AutoreleasingUnsafeMutablePointer<Foundation.NSError?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SA"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhiCameraFacing",
+                "printedName": "FPhiWidgetCore.PhiCameraFacing",
+                "usr": "c:@E@PhiCameraFacing"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CALayer",
+                "printedName": "QuartzCore.CALayer",
+                "usr": "c:objc(cs)CALayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhiCameraFocus",
+                "printedName": "FPhiWidgetCore.PhiCameraFocus",
+                "usr": "c:@E@PhiCameraFocus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AVFoundation.AVCaptureOutput?, CoreMedia.CMSampleBuffer?, AVFoundation.AVCaptureConnection?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AVFoundation.AVCaptureOutput?, CoreMedia.CMSampleBuffer?, AVFoundation.AVCaptureConnection?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AVFoundation.AVCaptureOutput?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AVCaptureOutput",
+                            "printedName": "AVFoundation.AVCaptureOutput",
+                            "usr": "c:objc(cs)AVCaptureOutput"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreMedia.CMSampleBuffer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CMSampleBuffer",
+                            "printedName": "CoreMedia.CMSampleBuffer",
+                            "usr": "c:@T@CMSampleBufferRef"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AVFoundation.AVCaptureConnection?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AVCaptureConnection",
+                            "printedName": "AVFoundation.AVCaptureConnection",
+                            "usr": "c:objc(cs)AVCaptureConnection"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, ObjectiveC.NSObject?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, ObjectiveC.NSObject?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ObjectiveC.NSObject?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSObject",
+                            "printedName": "ObjectiveC.NSObject",
+                            "usr": "c:objc(cs)NSObject"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)createWithFacingMode:previewWidth:previewHeight:layer:focusMode:qrMode:frameCallback:metadataCallback:",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC6create10facingMode12previewWidth0I6Height5layer05focusH002qrH013frameCallback08metadataP0SAySo7NSErrorCSgGSgSo03PhiD6FacingV_S2iSo7CALayerCSo0sD5FocusVSbySo15AVCaptureOutputCSg_So17CMSampleBufferRefaSgSo0W10ConnectionCSgtcySSSg_So8NSObjectCSgtctF",
+            "moduleName": "FPhiWidgetCore",
+            "objc_name": "createWithFacingMode:previewWidth:previewHeight:layer:focusMode:qrMode:frameCallback:metadataCallback:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startPreview",
+            "printedName": "startPreview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)startPreview",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC12startPreviewyyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopPreview",
+            "printedName": "stopPreview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)stopPreview",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC11stopPreviewyyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLicense",
+            "printedName": "setLicense(license:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)setLicenseWithLicense:",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC10setLicense7licenseSbSS_tF",
+            "moduleName": "FPhiWidgetCore",
+            "objc_name": "setLicenseWithLicense:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "askCameraPermissions",
+            "printedName": "askCameraPermissions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)askCameraPermissions",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC03askD11PermissionsSbyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)destroy",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC7destroyyyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRunning",
+            "printedName": "isRunning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)isRunning",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC9isRunningSbyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPreviewSize",
+            "printedName": "getPreviewSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)getPreviewSize",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC14getPreviewSizeSo6CGSizeVyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPreviewFrame",
+            "printedName": "setPreviewFrame(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)setPreviewFrameWithFrame:",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC15setPreviewFrame5frameySo6CGRectV_tF",
+            "moduleName": "FPhiWidgetCore",
+            "objc_name": "setPreviewFrameWithFrame:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPreviewOrientation",
+            "printedName": "setPreviewOrientation(orientation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureVideoOrientation",
+                "printedName": "AVFoundation.AVCaptureVideoOrientation",
+                "usr": "c:@E@AVCaptureVideoOrientation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)setPreviewOrientationWithOrientation:",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC21setPreviewOrientation11orientationySo014AVCaptureVideoH0V_tF",
+            "moduleName": "FPhiWidgetCore",
+            "objc_name": "setPreviewOrientationWithOrientation:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPreview",
+            "printedName": "getPreview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSObject",
+                "printedName": "ObjectiveC.NSObject",
+                "usr": "c:objc(cs)NSObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)getPreview",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC10getPreviewSo8NSObjectCyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)reset",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC5resetyyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFaceStabilizedStatus",
+            "printedName": "getFaceStabilizedStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)getFaceStabilizedStatus",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC23getFaceStabilizedStatusSiyF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cameraController",
+            "printedName": "cameraController(_:didCaptureImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDCameraControllerBase",
+                "printedName": "IDLiveFaceCamera.IDCameraControllerBase",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDCameraControllerBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDImage",
+                "printedName": "IDLiveFaceCamera.IDImage",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FPhiWidgetCore0A11CameraSwiftC16cameraController_15didCaptureImagey010IDLiveFaceD008IDCameraG4BaseC_AF7IDImageCtF",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC16cameraController_15didCaptureImagey010IDLiveFaceD008IDCameraG4BaseC_AF7IDImageCtF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cameraController",
+            "printedName": "cameraController(_:didEncounterError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDCameraControllerBase",
+                "printedName": "IDLiveFaceCamera.IDCameraControllerBase",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDCameraControllerBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "IDLiveFaceCamera.IDCameraControllerBase.Error",
+                "usr": "s:16IDLiveFaceCamera22IDCameraControllerBaseC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FPhiWidgetCore0A11CameraSwiftC16cameraController_17didEncounterErrory010IDLiveFaceD008IDCameraG4BaseC_AH0J0OtF",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC16cameraController_17didEncounterErrory010IDLiveFaceD008IDCameraG4BaseC_AH0J0OtF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cameraControllerUserDidPressResultButton",
+            "printedName": "cameraControllerUserDidPressResultButton(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDCameraControllerBase",
+                "printedName": "IDLiveFaceCamera.IDCameraControllerBase",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDCameraControllerBase"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FPhiWidgetCore0A11CameraSwiftC40cameraControllerUserDidPressResultButtonyy010IDLiveFaceD008IDCameraG4BaseCF",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC40cameraControllerUserDidPressResultButtonyy010IDLiveFaceD008IDCameraG4BaseCF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cameraControllerDidUpdateLiveImage",
+            "printedName": "cameraControllerDidUpdateLiveImage(_:image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDCameraControllerBase",
+                "printedName": "IDLiveFaceCamera.IDCameraControllerBase",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDCameraControllerBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDImage",
+                "printedName": "IDLiveFaceCamera.IDImage",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FPhiWidgetCore0A11CameraSwiftC34cameraControllerDidUpdateLiveImage_5imagey010IDLiveFaceD008IDCameraG4BaseC_AF7IDImageCtF",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC34cameraControllerDidUpdateLiveImage_5imagey010IDLiveFaceD008IDCameraG4BaseC_AF7IDImageCtF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cameraControllerDidUpdateFaceResult",
+            "printedName": "cameraControllerDidUpdateFaceResult(_:result:image:momentary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDCameraControllerBase",
+                "printedName": "IDLiveFaceCamera.IDCameraControllerBase",
+                "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDCameraControllerBase"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FaceDetectorResult",
+                "printedName": "IDLiveFaceCamera.FaceDetectorResult",
+                "usr": "s:16IDLiveFaceCamera0B14DetectorResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "IDLiveFaceCamera.IDImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IDImage",
+                    "printedName": "IDLiveFaceCamera.IDImage",
+                    "usr": "c:@M@IDLiveFaceCamera@objc(cs)IDImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FPhiWidgetCore0A11CameraSwiftC35cameraControllerDidUpdateFaceResult_6result5image9momentaryy06IDLivejD008IDCameraG4BaseC_AH0j8DetectorK0OAH7IDImageCSgSbtF",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC35cameraControllerDidUpdateFaceResult_6result5image9momentaryy06IDLivejD008IDCameraG4BaseC_AH0j8DetectorK0OAH7IDImageCSgSbtF",
+            "moduleName": "FPhiWidgetCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FPhiCameraSwift",
+                "printedName": "FPhiWidgetCore.FPhiCameraSwift",
+                "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift(im)init",
+            "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftCACycfc",
+            "moduleName": "FPhiWidgetCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FPhiWidgetCore@objc(cs)FPhiCameraSwift",
+        "mangledName": "$s14FPhiWidgetCore0A11CameraSwiftC",
+        "moduleName": "FPhiWidgetCore",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IDCameraControllerDelegate",
+            "printedName": "IDCameraControllerDelegate",
+            "usr": "s:16IDLiveFaceCamera26IDCameraControllerDelegateP",
+            "mangledName": "$s16IDLiveFaceCamera26IDCameraControllerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/selphi-widget-ios\/selphi-widget-ios\/src\/FPhiWidgetCore\/FPhiWidgetCore\/idrnd\/FPhiCamera-swift.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/actions-runner\/_work\/selphi-widget-ios\/selphi-widget-ios\/src\/FPhiWidgetCore\/FPhiWidgetCore\/idrnd\/FPhiCamera-swift.swift",
+      "kind": "BooleanLiteral",
+      "offset": 405,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

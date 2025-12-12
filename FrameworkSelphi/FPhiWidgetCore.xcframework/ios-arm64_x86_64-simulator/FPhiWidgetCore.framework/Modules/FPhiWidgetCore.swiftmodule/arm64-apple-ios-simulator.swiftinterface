@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FPhiWidgetCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import FPHILicenseManager
+@_exported import FPhiWidgetCore
+import IDLiveFaceCamera
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class FPhiCameraSwift : ObjectiveC.NSObject, IDLiveFaceCamera.IDCameraControllerDelegate {
+  @objc public func create(facingMode: FPhiWidgetCore.PhiCameraFacing, previewWidth: Swift.Int, previewHeight: Swift.Int, layer: QuartzCore.CALayer, focusMode: FPhiWidgetCore.PhiCameraFocus, qrMode: Swift.Bool, frameCallback: @escaping FPhiWidgetCore.onFrameBlock, metadataCallback: @escaping FPhiWidgetCore.onMetadataBlock) -> Foundation.NSErrorPointer
+  @objc public func startPreview()
+  @objc public func stopPreview()
+  @objc public func setLicense(license: Swift.String) -> Swift.Bool
+  @objc public func askCameraPermissions() -> Swift.Bool
+  @objc public func destroy()
+  @objc public func isRunning() -> Swift.Bool
+  @objc public func getPreviewSize() -> CoreFoundation.CGSize
+  @objc public func setPreviewFrame(frame: CoreFoundation.CGRect)
+  @objc public func setPreviewOrientation(orientation: AVFoundation.AVCaptureVideoOrientation)
+  @objc public func getPreview() -> ObjectiveC.NSObject
+  @objc public func reset()
+  @objc public func getFaceStabilizedStatus() -> Swift.Int
+  public func cameraController(_ controller: IDLiveFaceCamera.IDCameraControllerBase, didCaptureImage image: IDLiveFaceCamera.IDImage)
+  public func cameraController(_ controller: IDLiveFaceCamera.IDCameraControllerBase, didEncounterError error: IDLiveFaceCamera.IDCameraControllerBase.Error)
+  public func cameraControllerUserDidPressResultButton(_ controller: IDLiveFaceCamera.IDCameraControllerBase)
+  public func cameraControllerDidUpdateLiveImage(_ controller: IDLiveFaceCamera.IDCameraControllerBase, image: IDLiveFaceCamera.IDImage)
+  public func cameraControllerDidUpdateFaceResult(_ controller: IDLiveFaceCamera.IDCameraControllerBase, result: IDLiveFaceCamera.FaceDetectorResult, image: IDLiveFaceCamera.IDImage?, momentary: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
