@@ -28,9 +28,7 @@ let package = Package(
             dependencies: [
                 "FPhiWidgetCore",
                 "FPhiWidgetSelphi",
-                .product(name: "FPHIIDLiveFaceDetection-SPM", package: "FPHIIADFrameworks-SPM"),
-                .product(name: "FPHIIDLiveFaceCamera-SPM", package: "FPHIIADFrameworks-SPM"),
-                .product(name: "FPHIIDLiveFaceIAD-SPM", package: "FPHIIADFrameworks-SPM"),
+                .product(name: "FPHIIADFrameworks-SPM", package: "FPHIIADFrameworks-SPM"),
                 .product(name: "FPHIRecognitionHelper-SPM", package: "FPHIRecognitionHelper-SPM"),
                 .product(name: "FPBTokenizer-SPM", package: "FPBTokenizer-SPM"),
                 .product(name: "FPHILicenseManager-SPM", package: "FPHILicenseManager-SPM")]),
