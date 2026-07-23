@@ -14,8 +14,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMajor(from: "3.27.2")),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.2.3")),
+        .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMajor(from: "6.0.0")),
+        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.3.0")),
         .package(url: "https://github.com/facephi-clienters/FPBTokenizer-SPM.git", .exactItem("4.0.4")),
         .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMajor(from: "0.5.7")),
         .package(url: "https://github.com/facephi-clienters/FPHIIADFrameworks-SPM.git", .upToNextMajor(from: "2.5.1"))
@@ -35,11 +35,11 @@ let package = Package(
 
                     
         .binaryTarget(name: "FPhiWidgetCore",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.2.3/FPhiWidgetCore.zip",
-        checksum: "6a650e27710736a7c49cc5e8833a7c577a0421fe9a588762dea97575df8c23b6"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.3.0/FPhiWidgetCore.zip",
+        checksum: "c9c15d5fcbff91ace9e7fa2a638856e2668fbd1377829fe2f8d7a8add00ca4d3"),
         .binaryTarget(name: "FPhiWidgetSelphi",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.2.3/FPhiWidgetSelphi.zip",
-        checksum: "b1e49fdcc9d84d444319faeae049fab3692c0b110817c1b8a40160748a56d58f")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.3.0/FPhiWidgetSelphi.zip",
+        checksum: "bfc5658ee9f077f46a6f3d1ca9589f11ce92727f4eefcfee049cf1f93707d823")
         
     ]
 )
