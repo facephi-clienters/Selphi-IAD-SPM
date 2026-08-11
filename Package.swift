@@ -17,8 +17,8 @@ let package = Package(
         .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMajor(from: "6.0.0")),
         .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.3.0")),
         .package(url: "https://github.com/facephi-clienters/FPBTokenizer-SPM.git", .exactItem("4.0.4")),
-        .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMajor(from: "0.5.7")),
-        .package(url: "https://github.com/facephi-clienters/FPHIIADFrameworks-SPM.git", .upToNextMajor(from: "2.5.1"))
+        .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMinor(from: "0.5.7")),
+        .package(url: "https://github.com/facephi-clienters/FPHIIADFrameworks-SPM.git", .exactItem("2.5.1"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
