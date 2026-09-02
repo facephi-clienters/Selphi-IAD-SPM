@@ -18,7 +18,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.3.0")),
+        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.4.0")),
         .package(url: "https://github.com/facephi-clienters/FPBTokenizer-SPM.git", .exactItem("4.0.4")),
         .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMinor(from: "0.5.7")),
         .package(url: "https://github.com/facephi-clienters/FPHIIADFrameworks-SPM.git", .exactItem("2.5.1"))
@@ -38,11 +38,11 @@ let package = Package(
 
                     
         .binaryTarget(name: "FPhiWidgetCore",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.3.0/FPhiWidgetCore.zip",
-        checksum: "c9c15d5fcbff91ace9e7fa2a638856e2668fbd1377829fe2f8d7a8add00ca4d3"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.4.0/FPhiWidgetCore.zip",
+        checksum: "d8f6c98742c4981ef7ab3f1dd81684831e143d085a0b95a5e0096480ab782c89"),
         .binaryTarget(name: "FPhiWidgetSelphi",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.3.0/FPhiWidgetSelphi.zip",
-        checksum: "bfc5658ee9f077f46a6f3d1ca9589f11ce92727f4eefcfee049cf1f93707d823")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.4.0/FPhiWidgetSelphi.zip",
+        checksum: "bcb1c927d72bbffa220687cf87cf40f920a827aac8270d061a14d84bae08c723")
         
     ]
 )
