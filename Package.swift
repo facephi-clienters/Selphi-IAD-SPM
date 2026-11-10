@@ -17,11 +17,11 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMinor(from: "6.1.9")),
-        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.4.0")),
+        .package(url: "https://github.com/facephi-clienters/FPHIRecognitionHelper-SPM.git", .upToNextMinor(from: "6.4.1")),
+        .package(url: "https://github.com/facephi-clienters/FPHISelphiResources-SPM.git", .exactItem("6.5.0")),
         .package(url: "https://github.com/facephi-clienters/FPBTokenizer-SPM.git", .exactItem("4.0.4")),
         .package(url: "https://github.com/facephi-clienters/FPHILicenseManager-SPM.git", .upToNextMinor(from: "0.5.7")),
-        .package(url: "https://github.com/facephi-clienters/FPHIIADFrameworks-SPM.git", .exactItem("2.5.1"))
+        .package(url: "https://github.com/facephi-clienters/FPHIIADFrameworks-SPM.git", .exactItem("2.6.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -38,11 +38,11 @@ let package = Package(
 
                     
         .binaryTarget(name: "FPhiWidgetCore",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.4.0/FPhiWidgetCore.zip",
-        checksum: "d8f6c98742c4981ef7ab3f1dd81684831e143d085a0b95a5e0096480ab782c89"),
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.5.0/FPhiWidgetCore.zip",
+        checksum: "1cc2716ed17d96b0cee1c4aee2d0342814261c6a955fa9191d61896afcf1d7e1"),
         .binaryTarget(name: "FPhiWidgetSelphi",
-        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.4.0/FPhiWidgetSelphi.zip",
-        checksum: "bcb1c927d72bbffa220687cf87cf40f920a827aac8270d061a14d84bae08c723")
+        url: "https://facephicorp.jfrog.io/artifactory/spm-pro-fphi/WIDGET/Selphi/FPHISelphiIADFrameworks/6.5.0/FPhiWidgetSelphi.zip",
+        checksum: "5d82be02983b55194ac3ff58a680932a28ce527819c4081753db926c2a4f4cb1")
         
     ]
 )
